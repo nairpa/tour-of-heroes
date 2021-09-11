@@ -1,0 +1,46 @@
+#search-component {
+    padding: 1em;
+}
+
+label {
+    display: block;
+    font-weight: 600;
+    font-size: 20px;
+    color: #525252;
+}
+
+input {
+    padding: 0.5em;
+    width: 70%;
+}
+
+input:focus{
+    outline: #525252;   
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+li {
+    list-style-type: none;
+}
+
+li a {
+    padding: 0.5em;
+    border-right: 1px solid #525252;
+    border-left: 1px solid #525252;
+    border-bottom: 1px solid #525252;
+    width: 70%;
+    display: inline-block;
+    text-decoration: none;
+}
+
+a:visited {
+    color: none;
+}
+
+a:hover {
+    background-color: #525252;
+    color: #e8e8e8;
+}

@@ -1,0 +1,107 @@
+.heroes-container {
+    padding: 1em;
+}
+
+h2 {
+    font-weight: 300;
+    color: #525252;
+}
+
+.add-hero-container {
+    display: flex;
+    flex-direction: column;
+    color: #525252;
+}
+
+input {
+    margin-top: 1em;
+    padding: 0.5em;
+    border-radius: 4px;
+    border: 1px solid #525252;
+    width: 70%;
+}
+
+.add-button {
+    padding: 1em;
+    background-color: #e8e8e8;
+    color:#525252;
+    width: fit-content;
+    border: none;
+    border-radius: 4px;
+    font-size: 15px;
+    margin-top: 1em;
+    transition: 0.3s all ease-in-out;
+}
+
+.add-button:hover {
+    background-color: #3F525C;
+    color: #e8e8e8;
+}
+
+ul {
+    margin: 0;
+    margin-top: 1em;
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+}
+
+li a {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color:#525252;
+    transition: 0.1s all ease-in-out;
+    height: 2.5em;
+}
+
+li a:visited {
+    color: none;
+}
+
+li a:hover {
+    margin-left: 2px;
+}
+
+li a span {
+    background-color: #3F525C;
+    color: #e8e8e8;
+    padding: 0.5em;
+    border-radius: 4px 0px 0px 4px;
+}
+
+li a p {
+    padding: 0.5em;
+    background-color: #e8e8e8;
+    border-radius: 0px 4px 4px 0px;
+    min-width: 200px;
+    transition: 0.3s all ease-in-out;
+}
+
+li a p:hover {
+    background-color: #e2e0e0;
+}
+
+li button {
+    width: fit-content;
+    height: fit-content;
+    border: none;
+    border-radius: 4px;
+    padding: 0.5em 1em 0.5em 1em;
+    background-color: #ffffff;
+    justify-self: flex-end;
+    align-self: flex-end;
+    margin-left: -4em;
+    transition: 0.3s all ease-in-out;
+}
+
+li button:hover {
+    background-color: #3F525C;
+    color:#e8e8e8;
+}

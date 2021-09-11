@@ -1,0 +1,46 @@
+h2 {
+    font-weight: 300;
+    color: #3F525C;
+    text-align: center;
+}
+
+div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+a {
+    padding: 1em 1.5em 1em 1.5em;
+    background-color: #3F525C;
+    color: #e8e8e8;
+    text-decoration: none;
+    font-size: 20px;
+    margin-right: 1em;
+    transition: 0.3s all ease-in-out;
+}
+
+a:visited {
+    color: none;
+}
+
+a:hover {
+    background-color: black;
+}
+
+@media(max-width: 625px) {
+    div {
+        display: flex;
+        flex-direction: column;
+    }
+
+    a {
+        width: 70%;
+        margin-right: 0;
+        text-align: center;
+        margin-bottom: 1em;
+    }
+    
+}

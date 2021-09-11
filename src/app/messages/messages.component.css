@@ -1,0 +1,26 @@
+.message-container {
+    padding: 1em;
+}
+
+h2 {
+    font-weight: 300;
+    color: #B01818;
+}
+
+button {
+    padding: 1em;  
+    border: none;
+    border-radius: 4px;
+    background-color: #e8e8e8;
+    font-size: 15px;
+}
+
+button:hover {
+    background-color: #3F525C;
+    color: #e8e8e8;
+}
+
+.messages {
+    color: #525252;
+    margin-top: 1em;
+}

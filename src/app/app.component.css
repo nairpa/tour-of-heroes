@@ -1,0 +1,30 @@
+* {
+    font-family: sans-serif;
+    
+}
+
+header {
+    padding: 1em;
+}
+h1 {
+    color: #264D73;
+}
+
+a {
+    text-decoration: none;
+    padding: 1em;
+    margin-right: 0.5em;
+    background-color: #E8E8E8;
+    border-radius: 5px;
+    transition: 0.3s all ease-in-out;
+    color: #525252;
+}
+
+a:hover {
+    background: #3F525C;
+    color:#E8E8E8;
+}
+
+a:visited {
+    color: none;
+}
